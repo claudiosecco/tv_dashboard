@@ -1,0 +1,75 @@
+/* GLOBAL STYLES */
+html {
+  box-shadow: 0 0 0 30px #000 inset;
+  padding: 0 30px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: helvetica, arial, sans;
+}
+.content-container {
+  display: flex;
+  flex: 1 1 auto;
+  padding-top: 10vh;
+  width: 100%;
+}
+h1 {
+  font-size: 7vw;
+  margin-top: 0;
+}
+h2 {
+  font-size: 2em;
+}
+a {
+  color: #6397b5;
+}
+p {
+  line-height: 1.5;
+  margin: 0.75em 0;
+}
+h2 ~ p {
+  font-size: 0.8em;
+  font-style: italic;
+  margin: 1em auto 0;
+  max-width: 70%;
+  text-align: center;
+}
+h4 {
+  color: #999;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* DASHBOARD STYLES */
+.dashboard {
+  flex-direction: row;
+}
+
+/* COLUMN STYLES */
+.col-three {
+  display: flex;
+  flex: 1 1 auto;
+}
+.col {
+  box-sizing: border-box;
+  padding: 0;
+}
+.col-1 {
+  border: solid;
+  width: 45vw
+  /* flex: 1 1 auto; */
+}
+.col-1 img {
+  width: 100%;
+}
+
+.col-2 {
+  border: solid;
+  /* flex: 1 1; */
+}
+.col-3 {
+  border: solid;
+  /* flex: 1 1 auto; */
+}
