@@ -71,6 +71,11 @@ h4 {
   /* border: solid; */
   /* flex: 1 1; */
 }
+.col-2 img {
+  width: 98%;
+  padding: 0.5em 0.5em 0 0;
+  /* flex: 0 1 auto; */
+}
 .col-3 {
   /* border: solid; */
   /* flex: 1 1 auto; */
