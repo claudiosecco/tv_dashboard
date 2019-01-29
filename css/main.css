@@ -58,25 +58,31 @@ h4 {
 }
 .col-1 {
   /* border: solid; */
-  width: 62vw
+  width: 70vw
   /* flex: 1 1 auto; */
 }
 .col-1 img {
-  width: 98%;
-  padding: 0.5em 0.5em 0 0.5em;
+  width: 88%;
+  padding: 0.5em 0.5em 0 3em;
   /* flex: 0 1 auto; */
 }
 
 .col-2 {
+  width: 30px;
   /* border: solid; */
   /* flex: 1 1; */
 }
 .col-2 img {
-  width: 98%;
+  width: 100%;
   padding: 0.5em 0.5em 0 0;
   /* flex: 0 1 auto; */
 }
 .col-3 {
   /* border: solid; */
   /* flex: 1 1 auto; */
+}
+.col-3 img {
+  width: 110%;
+  padding: 0.5em 0.5em 0 0;
+  /* flex: 0 1 auto; */
 }
